@@ -3,7 +3,7 @@
     internal class Pet
     {
         public string Name { get; set; }
-        public string Speaces { get; set; }
+        public string Species { get; set; }
         public bool Sex { get; set; }
         public DateTime BirthDate { get; set; }
         public int Age => 
@@ -11,7 +11,7 @@
 
         public override string ToString()
         {
-            return $"{Name} ({Age} years old {Speaces})";
+            return $"{Name} ({Age} years old {Species})";
         }
     }
 }
