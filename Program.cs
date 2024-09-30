@@ -1,5 +1,4 @@
 ﻿using CALINQ24091603;
-using System.Net.WebSockets;
 
 #region list of pets
 List<Pet> pets = [
@@ -8,7 +7,7 @@ List<Pet> pets = [
         Name = "Mr. Wick",
         Speaces = "hamster",
         Sex = true,
-        BirthDate = new(2022, 05, 07),
+        BirthDate = new(2023, 03, 14),
     },
     new Pet() //02
     {
